@@ -12,8 +12,15 @@ assertEquals(expected, calculate.sum(2, 3));
 @Test
 public void testsumall() {
 Calculate calculate = new Calculate();
-int expected = 56;
+int expected = 55;
 assertEquals(expected, calculate.sumall(1, 10));
+}
+
+@Test
+public void testoddeven() {
+Calculate calculate = new Calculate();
+int expected = 25;
+assertEquals(expected, calculate.oddeven(1, 10));
 }
 
 }
