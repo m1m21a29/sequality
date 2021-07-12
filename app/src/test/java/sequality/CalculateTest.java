@@ -10,7 +10,7 @@ assertEquals(expected, calculate.sum(2, 3));
 }
 public void testSum1() {
 Calculate calculate = new Calculate();
-int expected = 10;
+int expected = 11;
 assertEquals(expected, calculate.sum(5, 5));
 }
 
