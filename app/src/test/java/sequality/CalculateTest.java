@@ -5,14 +5,15 @@ public class CalculateTest {
 @Test
 public void testSum() {
 Calculate calculate = new Calculate();
-int expected = 6;
+int expected = 5;
 assertEquals(expected, calculate.sum(2, 3));
 }
-/*
+
+@Test
 public void testAve() {
 Calculate calculate = new Calculate();
 double expected = 6;
 assertEquals(expected, calculate.ave(2, 3));
 }
-*/
+
 }
