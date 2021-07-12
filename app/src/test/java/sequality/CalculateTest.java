@@ -12,7 +12,7 @@ assertEquals(expected, calculate.sum(2, 3));
 @Test
 public void testAve() {
 Calculate calculate = new Calculate();
-double expected = 6;
+double expected = 2.5;
 assertEquals(expected, calculate.ave(2, 3));
 }
 
