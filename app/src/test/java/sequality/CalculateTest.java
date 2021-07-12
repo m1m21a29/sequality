@@ -8,10 +8,12 @@ Calculate calculate = new Calculate();
 int expected = 5;
 assertEquals(expected, calculate.sum(2, 3));
 }
-public void testSum1() {
+
+@Test
+public void testsumall() {
 Calculate calculate = new Calculate();
-int expected = 11;
-assertEquals(expected, calculate.sum(5, 5));
+int expected = 55;
+assertEquals(expected, calculate.sumall(1, 10));
 }
 
 }
