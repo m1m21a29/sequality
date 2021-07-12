@@ -10,6 +10,11 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
-        System.out.println(new Calculate().sum(2,3));
+        new Calculate().sumave(2,3);
+        new Calculate().sumall(1,10);
+        new Calculate().oddeven(1,10);
+        //new Calculate().ave(2,3);
+        //System.out.println(new Calculate().sum(2,3));
+        //System.out.println(new Calculate().ave(2,3));
     }
 }
