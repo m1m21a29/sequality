@@ -15,7 +15,7 @@ public int sumave(int x, int y) {
   System.out.print("Sum of "+x+" and "+y+" is "+(x+y)+".");
   System.out.println("Average is "+(double)(x+y)/2+".");
 //return (x + y)/2;
-return 0;
+return x+y;
 }
 
 public int sumall(int x, int y) {
